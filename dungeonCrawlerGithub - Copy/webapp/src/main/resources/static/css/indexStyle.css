@@ -1,0 +1,67 @@
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.video-background video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.logo{
+    size: 16px;
+}
+
+.video-overlay h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.video-overlay p {
+    font-size: 1.5rem;
+}
+
+.video-overlay a{
+    text-decoration: none; /* Verwijder onderstreping van de link */
+    color: #0077cc; /* Kleur van de link */
+    transition: color 0.3s; /* Overgang voor kleurverandering */
+    font-weight: bold; /* Vetgedrukte tekst */
+}
+
+.video-overlay a:hover {
+    color: #ff6600; /* Andere kleur bij hover */
+}
+
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.video-overlay h2.fade-out,
+.video-overlay p.fade-out,
+.video-overlay a.fade-out {
+    animation: fadeOut 15s ease-out 3s forwards;
+}
+
+

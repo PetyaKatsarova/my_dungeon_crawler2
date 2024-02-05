@@ -1,0 +1,207 @@
+{
+  "id": 0,
+  "gameBoard": [
+    [
+      {
+        "id": 0,
+        "row": 0,
+        "column": 0,
+        "chest": null,
+        "monster": {
+          "idCharacter": 15,
+          "name": "Dire-Rat",
+          "healthPoints": 50,
+          "gold": 33
+        },
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "SOUTH",
+          "EAST"
+        ]
+      },
+      {
+        "id": 0,
+        "row": 0,
+        "column": 1,
+        "chest": {
+          "id": 0,
+          "item": {
+            "type": "Gold",
+            "id": 34,
+            "itemName": "9 Goldpieces",
+            "value": 9
+          }
+        },
+        "monster": {
+          "idCharacter": 3,
+          "name": "Bug",
+          "healthPoints": 10,
+          "gold": 7
+        },
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "SOUTH",
+          "WEST",
+          "EAST"
+        ]
+      },
+      {
+        "id": 0,
+        "row": 0,
+        "column": 2,
+        "chest": {
+          "id": 0,
+          "item": {
+            "type": "Potion",
+            "id": 40,
+            "itemName": "superior Potion",
+            "healingModifier": 25
+          }
+        },
+        "monster": null,
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "SOUTH",
+          "WEST"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "row": 1,
+        "column": 0,
+        "chest": null,
+        "monster": {
+          "idCharacter": 32,
+          "name": "Docent Stephanie",
+          "healthPoints": 100,
+          "gold": 59
+        },
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "NORTH",
+          "SOUTH",
+          "EAST"
+        ]
+      },
+      {
+        "id": 0,
+        "row": 1,
+        "column": 1,
+        "chest": null,
+        "monster": null,
+        "droppedItem": null,
+        "visited": true,
+        "currentRoom": true,
+        "containsGrail": false,
+        "doors": [
+          "NORTH",
+          "SOUTH",
+          "WEST",
+          "EAST"
+        ]
+      },
+      {
+        "id": 0,
+        "row": 1,
+        "column": 2,
+        "chest": null,
+        "monster": null,
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": true,
+        "doors": [
+          "NORTH",
+          "SOUTH",
+          "WEST"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "row": 2,
+        "column": 0,
+        "chest": null,
+        "monster": null,
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "NORTH",
+          "EAST"
+        ]
+      },
+      {
+        "id": 0,
+        "row": 2,
+        "column": 1,
+        "chest": {
+          "id": 0,
+          "item": {
+            "type": "Nothing",
+            "id": 44,
+            "itemName": "nothing"
+          }
+        },
+        "monster": null,
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "NORTH",
+          "WEST",
+          "EAST"
+        ]
+      },
+      {
+        "id": 0,
+        "row": 2,
+        "column": 2,
+        "chest": null,
+        "monster": null,
+        "droppedItem": null,
+        "visited": false,
+        "currentRoom": false,
+        "containsGrail": false,
+        "doors": [
+          "NORTH",
+          "WEST"
+        ]
+      }
+    ]
+  ],
+  "rows": 3,
+  "columns": 3,
+  "gameOwner": {
+    "idCharacter": 1,
+    "name": "testDennis",
+    "healthPoints": 100,
+    "gold": 0,
+    "kills": 0,
+    "roomsVisited": 1,
+    "healthPotions": [],
+    "weapon": {
+      "type": "Weapon",
+      "id": 1,
+      "itemName": "Fist",
+      "attackModifier": 0
+    }
+  }
+}

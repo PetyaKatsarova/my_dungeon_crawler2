@@ -1,0 +1,105 @@
+#game-wrapper {
+    margin: 0;
+    padding-top: 150px;
+    font-family: monospace;
+    background-image: url('../images/gameAchtergrond.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Twee kolommen toegevoegd */
+    grid-gap: 1px;
+    justify-items: center;
+    align-items: center;
+}
+
+#terminal {
+    background-color: black;
+    color: white;
+    width: 100%;
+    max-width: 800px;
+    height: 60vh;
+    overflow: auto;
+    white-space: pre-line;
+    padding: 10px;
+    grid-row: 1;
+    grid-column: 2 / span 2; /* Span 2 kolommen voor terminal */
+}
+
+#input-container {
+    width: 100%;
+    margin-top: -150px;
+    max-width: 800px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    grid-row: 2;
+    grid-column: 2 / span 2; /* Span 2 kolommen voor input-container */
+}
+
+input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#game-wrapper #game-buttons {
+    margin-top: -150px;
+    grid-row: 1;
+    grid-column: 1 ; /* Verplaatst naar de eerste kolom */
+}
+
+#game-wrapper #move-arrows {
+    margin-top: -100px;
+    grid-row: 2 ;
+    grid-column: 1; /* Verplaatst naar de eerste kolom */
+    padding-bottom: 140px;
+}
+
+.visited {
+    background-color: red;
+}
+
+.current {
+    background-color: green;
+}
+
+
+h1 {
+    grid-row: 1; /* New position */
+    grid-column: 4; /* New position */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rebeccapurple;
+    padding: 10px;
+    grid-row: 1;
+    grid-column: 4;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.blinking {
+    animation: blinking 1s infinite;
+}

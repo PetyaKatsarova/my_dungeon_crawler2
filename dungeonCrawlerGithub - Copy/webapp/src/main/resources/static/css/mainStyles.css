@@ -1,0 +1,101 @@
+body {
+    font-family: 'MedievalSharp', sans-serif;
+    background-image: url("../images/parchment.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    
+    /* Flexbox om de hoogte in te stellen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* hoogte van de box*/
+}
+
+.container {
+    transform: scaleY(0); /* Flatten the container */
+    transform-origin: top; /* The point from which the animation starts */
+    animation: rollOut 2s forwards; /* Animation name, duration, and make sure the animation state persists after it completes */
+}
+@keyframes rollOut {
+    to {
+        transform: scaleY(1); /* Fully unroll the container */
+    }
+}
+.container {
+    max-width: 600px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #3d3d3d;
+    background-color: transparent;
+    color: #3d3d3d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+
+.audio-container {
+    position: fixed; /* This will keep the audio controls in position even when scrolling */
+    right: 10px; /* Position it 10px from the right edge */
+    top: 10px;  /* Position it 10px from the top edge */
+    z-index: 1000; /* This ensures the audio controls stay on top of other elements */
+}
+/* dit maakt de vuur annimaite */
+.fire-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #ff3, transparent);
+    z-index: -1; /* Ensure it's behind your main content */
+    animation: fireFlicker 1.5s infinite;
+}
+
+@keyframes fireFlicker {
+    0% { background: radial-gradient(circle at center, #ff3, transparent); }
+    50% { background: radial-gradient(circle at center, #ff5, transparent); }
+    100% { background: radial-gradient(circle at center, #ff3, transparent); }
+}
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.search-box input {
+    padding: 5px 10px;
+    border: 2px solid #3d3d3d;
+    border-radius: 5px;
+}
+.highlight {
+    background-color: Green; /* Or any other color you prefer */
+}
+.centered-table {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%; /* or any other percentage or px value that suits your design */
+}
+
+
+
