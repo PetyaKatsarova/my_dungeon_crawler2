@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-family: 'MedievalSharp', sans-serif;
+    overflow-y: auto;
+    height: 100vh;
+    background-image: url('../images/faq_purple (2).avif');
+    background-size: cover;
+}
+
+.nav-links li a{
+    color: cadetblue;
+    font-weight: 700;
+    margin-right: .7em;
+}
+
+.faq-container {
+    text-align: center;
+    overflow-y: auto;
+    margin-top: 7em;
+    transform: scaleY(0); /* Flatten the container */
+    transform-origin: top; /* The point from which the animation starts */
+    animation: rollOut 2s forwards; /* Animation name, duration, and make sure the animation state persists after it completes */
+    min-height: 75vh; /*pushes footer to the bottom of the page*/
+}
+
+/*for smooth display on page load*/
+@keyframes rollOut {
+    to {
+        transform: scaleY(1); /* Fully unroll the container */
+    }
+}
+
+.faq-question, .faq-answer {
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    box-shadow: 10px 5px 5px #333;
+}
+
+.faq-question {
+    width: 30%;
+    max-resolution: 5px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #282d36, #738e94);
+}
+
+.faq-answer {
+    width: 70%;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #282d36, #6b663c);
+    background: linear-gradient(to bottom, #796080, #baa6bf);
+    animation: collapse 0.5s ease forwards;
+    display: none;
+}
+
+.faq-answer.show {
+    animation: expand 0.5s ease forwards;
+    display: block;
+}
+
+@keyframes expand {
+    0% {
+        max-height: 0;
+        opacity: 0;
+        padding: 0 1em;
+    }
+    50% {
+        max-height: 50vh;
+        opacity: .5;
+        padding: 1em;
+    }
+    100% {
+        max-height: 100vh;
+        opacity: 1;
+        padding: 1em;
+    }
+}
+
+@keyframes collapse {
+    0% {
+        max-height: 100vh;
+        opacity: 1;
+        padding: 1em;
+    }
+    50% {
+        max-height: 50vh;
+        opacity: .5;
+        padding: 1em;
+    }
+    100% {
+        max-height: 0;
+        opacity: 0;
+        padding: 0 1em;
+    }
+}
+
+
+
+
+
+

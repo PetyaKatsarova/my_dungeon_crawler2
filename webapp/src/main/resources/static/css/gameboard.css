@@ -1,0 +1,20 @@
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: lavenderblush;
+    border: 1px solid black;
+    box-sizing: border-box; /* This will include the border in the cell's dimensions */
+}
+
+.cell.special {
+    /*border: 2px solid red;*/
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+

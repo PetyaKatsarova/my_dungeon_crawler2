@@ -1,0 +1,84 @@
+/* victoryStyles.css */
+
+body {
+    font-family: 'MedievalSharp', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column; /* Verander de lay-out naar een kolomindeling */
+    align-items: center;
+    justify-content: center; /* Verticaal en horizontaal centreren */
+    height: 100vh;
+}
+
+.container {
+    transform: scaleY(0);
+    transform-origin: top;
+    animation: rollOut 2s forwards;
+    max-width: 600px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes rollOut {
+    to {
+        transform: scaleY(1);
+    }
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+}
+
+/* Plaats de navbar bovenaan de pagina */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+}
+
+/* Voeg marge toe aan de bovenkant van de container om ruimte te maken voor de navbar */
+.container:first-child {
+    margin-top: 60px;
+}
+
+/* Video-achtergrond */
+#backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* Plaats de highscore-container onder de andere container */
+#highscore-container {
+    font-family: 'MedievalSharp', sans-serif;
+    max-width: 400px; /* Pas aan afhankelijk van je ontwerp */
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px; /* Voeg wat ruimte toe boven de highscore-container */
+    height: auto; /* Maak de hoogte automatisch aanpassen aan de inhoud */
+    max-height: 300px; /* Stel een maximale hoogte in */
+    overflow-y: auto; /* Voeg een schuifbalk toe als de inhoud te lang is om op het scherm te passen */
+}
+
+#highscore-container p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: ghostwhite;
+}
+
+
