@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defeat Page!</title>
+    <link rel="stylesheet" href="../css/mainStyles.css">
+    <link rel="stylesheet" href="../css/defeatStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=MedievalSharp&display=swap" rel="stylesheet">
+    <script src="../js/defeat.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+    <h1>You've Been Defeated!</h1>
+    <p>Unfortunately, your quest has come to an end. Try again?</p>
+    <button id="retry">Retry</button>
+    <button id="homePage">Return to Main Page</button>
+    <button id="logOut">Log Out</button>
+    <button id="muteButton">Unmute</button>
+</div>
+
+    <div class="easterEggContainer" id="easterEgg" style="display: none;">
+        <h1>Easter Egg!</h1>
+        <div class="grid-container">
+            <div class="item item1">Maak</div>
+            <div class="item item2">je</div>
+            <div class="item item3">eigen</div>
+            <div class="item item4">regen</div>
+            <div class="item item5">boog</div>
+            <div class="item item6">vlag.</div>
+        </div>
+        <!-- High Scores tbv AJAX -->
+        <button id="showHighScoresButton">Show High Scores</button>
+        <div id="highScoresContainer" style="display:none;">
+            <h2>High Scores</h2>
+            <ul id="highScoresList"></ul>
+        </div>
+        <!-- Show Random Monster Button -->
+        <button id="showRandomMonsterButton">Show Random Monster</button>
+        <div id="randomMonsterContainer" style="display:none;">
+            <h2>Random Monster</h2>
+            <ul id="randomMonsterList"></ul>
+        </div>
+    </div>
+
+</div>
+<div class="audio-container">
+    <audio id="defeatSound" autoplay loop>
+        <source src="../assets/heartbeat.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+<div class="fire-bg"></div>
+</body>
+</html>

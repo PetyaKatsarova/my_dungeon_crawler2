@@ -7,14 +7,14 @@ import java.util.List;
 
 public class GameCrawlerDTO {
 
-    private int idCharacter;
-    private String name;
-    private int healthPoints;
-    private int gold;
-    private int kills;
-    private int roomsVisited;
-    private List<Potion> healthPotions;
-    private Weapon weapon;
+    private int             idCharacter;
+    private String          name;
+    private int             healthPoints;
+    private int             gold;
+    private int             kills;
+    private int             roomsVisited;
+    private List<Potion>    healthPotions;
+    private Weapon          weapon;
 
     public GameCrawlerDTO() {
     }

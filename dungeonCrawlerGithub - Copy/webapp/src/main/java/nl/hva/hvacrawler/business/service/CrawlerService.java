@@ -10,7 +10,7 @@ import java.util.Optional;
 import java.util.OptionalInt;
 @Service
 public class CrawlerService {
-    private final Logger logger = LoggerFactory.getLogger(CrawlerRepository.class);
+    private final Logger            logger = LoggerFactory.getLogger(CrawlerRepository.class);
     private final CrawlerRepository crawlerRepository;
 
 

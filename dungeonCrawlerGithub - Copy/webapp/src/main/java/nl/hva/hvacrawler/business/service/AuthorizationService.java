@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthorizationService {
 
-    private final UserRepository userRepository;
-    private final JWTToken jwtToken;
+    private final UserRepository    userRepository;
+    private final JWTToken          jwtToken;
 
 
     public AuthorizationService(UserRepository userRepository) {
@@ -35,5 +35,4 @@ public class AuthorizationService {
     private User getUserByJWTToken(String jwtoken){
         return userRepository.finduserByJwtToken(jwtoken);
     }
-
 }

@@ -23,28 +23,24 @@ document.getElementById('pickup-button').addEventListener('click', function () {
     handlePickup('pickup', 'item');
 })
 
-const moveUpButtonImage = document.getElementById('move-up');
-moveUpButtonImage.addEventListener('click', function () {
+document.getElementById('move-up').addEventListener('click', function () {
     console.log("clicked on up-arrow");
     const direction = 'NORTH';
     handleMove('move', [direction]);
 })
-const moveLeftButtonImage = document.getElementById('move-left');
-moveLeftButtonImage.addEventListener('click', function () {
+document.getElementById('move-left').addEventListener('click', function () {
     console.log("clicked on left-arrow");
     const direction = 'WEST';
     handleMove('move', [direction]);
 })
 
-const moveRightButtonImage = document.getElementById('move-right');
-moveRightButtonImage.addEventListener('click', function () {
+document.getElementById('move-right').addEventListener('click', function () {
+    console.log("clicked on right-arrow");
     console.log("clicked on right-arrow");
     const direction = 'EAST';
     handleMove('move', [direction]);
 })
-
-const moveDownButtonImage = document.getElementById('move-down');
-moveDownButtonImage.addEventListener('click', function () {
+document.getElementById('move-down').addEventListener('click', function () {
     console.log("clicked on down-arrow");
     const direction = 'SOUTH';
     handleMove('move', [direction]);

@@ -5,13 +5,13 @@ import nl.hva.hvacrawler.business.domain.Game;
 import java.util.Arrays;
 
 public class GameDTO {
-    public enum GameStatus { ONGOING, PAUSED, FINISHED }
-    private int id;
+    public enum             GameStatus { ONGOING, PAUSED, FINISHED }
+    private int             id;
     private GameRoomDTO[][] gameBoard;
-    private int rows;
-    private int columns;
+    private int             rows;
+    private int             columns;
     private GameCrawlerDTO gameOwner;
-    private GameStatus gameStatus;
+    private GameStatus      gameStatus;
     public GameDTO() {
     }
 

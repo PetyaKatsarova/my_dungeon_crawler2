@@ -17,9 +17,9 @@ import org.springframework.web.server.ResponseStatusException;
 @Controller
 @RequestMapping("/game")
 public class GameController {
-    private final GameService gameService;
+    private final GameService           gameService;
     private final AuthorizationService authorizationService;
-    private final Logger logger = LoggerFactory.getLogger(GameController.class);
+    private final Logger                logger = LoggerFactory.getLogger(GameController.class);
 
     @Autowired
     public GameController(GameService gameService, AuthorizationService authorizationService) {

@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Chest` (
   CONSTRAINT `fk_Chest_Item1`
     FOREIGN KEY (`idItem`)
     REFERENCES `HVACrawler_test`.`Item` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -56,12 +56,12 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Crawler` (
   CONSTRAINT `fk_Player_User1`
     FOREIGN KEY (`idUser`)
     REFERENCES `HVACrawler_test`.`User` (`idUser`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Crawler_Weapon1`
     FOREIGN KEY (`weapon`)
     REFERENCES `HVACrawler_test`.`Weapon` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -81,12 +81,12 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Crawler_has_Potion` (
   CONSTRAINT `fk_Crawler_has_Potion_Crawler1`
     FOREIGN KEY (`idCrawler`)
     REFERENCES `HVACrawler_test`.`Crawler` (`idCrawler`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE,
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Crawler_has_Potion_Potion1`
     FOREIGN KEY (`idItem_Potion`)
     REFERENCES `HVACrawler_test`.`Potion` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Game` (
   CONSTRAINT `fk_Game_Player1`
     FOREIGN KEY (`idCrawler`)
     REFERENCES `HVACrawler_test`.`Crawler` (`idCrawler`)
-    ON DELETE NO ACTION
+    OON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Gold` (
   CONSTRAINT `fk_Gold_Item1`
     FOREIGN KEY (`idItem`)
     REFERENCES `HVACrawler_test`.`Item` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -168,7 +168,7 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Potion` (
   CONSTRAINT `fk_Gold_Item10`
     FOREIGN KEY (`idItem`)
     REFERENCES `HVACrawler_test`.`Item` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -198,22 +198,22 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Room` (
   CONSTRAINT `fk_Room_Chest1`
     FOREIGN KEY (`idChest`)
     REFERENCES `HVACrawler_test`.`Chest` (`idChest`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Room_Monster1`
     FOREIGN KEY (`idMonster`)
     REFERENCES `HVACrawler_test`.`Monster` (`idMonster`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Room_Item1`
     FOREIGN KEY (`droppedItem`)
     REFERENCES `HVACrawler_test`.`Item` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Room_Game1`
     FOREIGN KEY (`idGame`)
     REFERENCES `HVACrawler_test`.`Game` (`idGame`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -231,7 +231,7 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Trap` (
   CONSTRAINT `fk_Gold_Item100`
     FOREIGN KEY (`idItem`)
     REFERENCES `HVACrawler_test`.`Item` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -270,7 +270,7 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`VerificationToken` (
   CONSTRAINT `fk_VerificationToken_User1`
     FOREIGN KEY (`idUser`)
     REFERENCES `HVACrawler_test`.`User` (`idUser`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -288,10 +288,9 @@ CREATE TABLE IF NOT EXISTS `HVACrawler_test`.`Weapon` (
   CONSTRAINT `fk_Gold_Item101`
     FOREIGN KEY (`idItem`)
     REFERENCES `HVACrawler_test`.`Item` (`idItem`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
-
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

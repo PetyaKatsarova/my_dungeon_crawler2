@@ -2,7 +2,7 @@ package nl.hva.hvacrawler.business.domain;
 
 public abstract class Character {
     private int idCharacter;
-    private String name;
+    private     String name;
     private int healthPoints;
     private int gold;
 
@@ -12,7 +12,6 @@ public abstract class Character {
         this.healthPoints = healthPoints;
         this.gold = gold;
     }
-
 
     public String getName() {
         return name;

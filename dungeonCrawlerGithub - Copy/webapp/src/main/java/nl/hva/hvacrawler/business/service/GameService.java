@@ -17,16 +17,16 @@ import java.util.function.BiFunction;
 
 @Service
 public class GameService {
-    private final Logger logger = LoggerFactory.getLogger(GameService.class);
-    private final GameRepository gameRepository;
+    private final Logger            logger = LoggerFactory.getLogger(GameService.class);
+    private final GameRepository    gameRepository;
     private final CrawlerRepository crawlerRepository;
-    private final MonsterService monsterService;
-    private final PotionService potionService;
-    private final TrapService trapService;
-    private final WeaponService weaponService;
-    private final GoldService goldService;
-    private final CommandService commandService;
-    private final SaveService saveService;
+    private final MonsterService    monsterService;
+    private final PotionService     potionService;
+    private final TrapService       trapService;
+    private final WeaponService     weaponService;
+    private final GoldService       goldService;
+    private final CommandService    commandService;
+    private final SaveService       saveService;
     private Map<String, BiFunction<GameDTO, String, GameDTO>> commandHandlers = new HashMap<>();
 
 

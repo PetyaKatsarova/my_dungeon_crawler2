@@ -22,7 +22,7 @@ import java.sql.SQLException;
 import java.util.Optional;
 
 @Repository
-public class JdbcCrawlerDao implements CrawlerDao {
+public class JdbcCrawlerDao implements BaseDao<Crawler>, CrawlerDao {
 
     private final Logger logger = LoggerFactory.getLogger(JdbcCrawlerDao.class);
     private final JdbcTemplate jdbcTemplate;

@@ -70,7 +70,7 @@ function handleHelp() {
     printMessage("- createNewGame rows columns: Create a new game with the specified rows and columns");
     printMessage("- status: Display your statistics and current location");
     printMessage("- look: Examine your surroundings in the current room");
-    printMessage("- move direction: Move the player in the specified direction (e.g., 'north', 'east', 'south', 'west')");
+    printMessage("- move DIRECTION: Move the player in the specified direction (e.g., 'north', 'east', 'south', 'west')");
     printMessage("- open: Open a chest in the room (if available)");
     printMessage("- pickup: Pick up an item (weapon, gold, potion) from the room");
     printMessage("- pickup holygrail: You win the game!");
@@ -89,7 +89,6 @@ function handleCreateNewGame(args) {
     if (!(rows >= 1 && rows <= 20 && columns >= 1 && columns <= 20)) {
         printMessage("Rows and columns should be a number from 1 to 20");
     } else {
-        // Roep de generateGrid functie aan om een visueel grid te maken
         generateGrid(rows, columns);
 
         const urlGetAPI = 'http://localhost:8080/game/create?rows=' + rows + '&columns=' + columns;
@@ -101,29 +100,22 @@ function handleCreateNewGame(args) {
 function handleMove(cmd, args) {
     const gameData = JSON.parse(sessionStorage.getItem('game'));
     const putUrl = urlPutAPI + "?command=" + cmd + "&argument=" + args
-    // const direction = args[0];
-    // // Logic to move the player in the specified direction
-    // Validate input
-    if (gameData) {
+
+    if (gameData) {    // Validate input
         if (!args || args.length === 0) {
             console.log("No direction specified.");
             return;
         }
 
+        // Logic to move the player in the specified direction
         const direction = args[0];
-
-        // Get the current room
         const curRoom = currentRoom(gameData);
-
-        // Get the doors in the current room
         const doors = curRoom.doors;
-        console.log(doors);
 
         // Check if there's a door in the specified direction
         let doorFound = false;
         for (const door of doors) {
-            if (door === direction) {
-                // There is a door in the specified direction
+            if (door.toLowerCase() === direction.toLowerCase()) { // There is a door in the specified direction
                 doorFound = true;
                 break;
             }
@@ -236,7 +228,6 @@ function droppedItemInfo(item) {
     } else if (item.type === 'Weapon') {
         msg += `A weapon ${item.itemName} with an attack modifier of ${item.attackModifier} hit points`;
     }
-    console.log(item)
     return msg;
 }
 
@@ -361,7 +352,6 @@ function handleDrink(cmd, args) {
 
 function succeedDrink(data) {
     sessionStorage.setItem('game', data);
-    console.log(data);
     const gameData = JSON.parse(data);
     const gameOwner = gameData.gameOwner;
     const healthPoints = gameOwner ? gameOwner.healthPoints : "unknown";
@@ -400,7 +390,7 @@ const succeedGame = function (data) {
     const gameData = (typeof data === 'string') ? JSON.parse(data) : data;
 
     sessionStorage.setItem('game', JSON.stringify(gameData));
-    console.log(gameData);
+    console.log("succeed data: " + gameData);
 
     printMessage("New game created");
 

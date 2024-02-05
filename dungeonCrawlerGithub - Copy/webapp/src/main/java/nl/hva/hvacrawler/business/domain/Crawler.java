@@ -8,20 +8,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Crawler extends Character {
-    private final Logger logger = LoggerFactory.getLogger(Crawler.class);
+    private final Logger    logger = LoggerFactory.getLogger(Crawler.class);
     @Getter
-    private int kills;
+    private int             kills;
     @Getter
-    private int roomsVisited;
+    private int             roomsVisited;
     @Getter
-    private List<Potion> healthPotions;
+    private List<Potion>    healthPotions;
     @Getter
-    private Weapon weapon;
+    private Weapon          weapon;
     @Getter
     @JsonIgnore
-    private User user;
-    private final int MAX_HEALTH_POINTS = 100;
-    private final int STARTING_GOLD = 0;
+    private User            user;
+    private final int       MAX_HEALTH_POINTS = 100;
+    private final int       STARTING_GOLD = 0;
 
     public Crawler() {
         this("John Do");

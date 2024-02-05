@@ -14,12 +14,11 @@ import java.util.Optional;
 @Repository
 public class CrawlerRepository {
 
-    private final Logger logger = LoggerFactory.getLogger(CrawlerRepository.class);
-
-    private final JdbcCrawlerDao jdbcCrawlerDao;
-    private final JdbcWeaponDao jdbcWeaponDao;
-    private final PotionRepository potionRepository;
-    private final JdbcUserDao jdbcUserDao;
+    private final Logger            logger = LoggerFactory.getLogger(CrawlerRepository.class);
+    private final JdbcCrawlerDao    jdbcCrawlerDao;
+    private final JdbcWeaponDao     jdbcWeaponDao;
+    private final PotionRepository  potionRepository;
+    private final JdbcUserDao       jdbcUserDao;
 
     public CrawlerRepository(JdbcCrawlerDao jdbcCrawlerDao, JdbcWeaponDao jdbcWeaponDao,
                              PotionRepository potionRepository, JdbcUserDao jdbcUserDao) {
@@ -31,9 +30,6 @@ public class CrawlerRepository {
     }
 
     public Crawler saveOrUpdateOne(Crawler crawler) {
-        // implement potion repo save potions: crawerlhas potiosn
-        // create potiondto from crawerl-> use potionrepo.save
-        // tosave potions and crawler info
         return jdbcCrawlerDao.saveOrUpdateOne(crawler);
     }
 

@@ -91,10 +91,6 @@ public class GameRoomDTO {
         return containsGrail;
     }
 
-    public void setContainsGrail(boolean containsGrail) {
-        this.containsGrail = containsGrail;
-    }
-
     public List<Door> getDoors() {
         return doors;
     }

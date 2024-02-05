@@ -6,8 +6,6 @@ import java.util.Optional;
 
 public interface CrawlerDao extends BaseDao<Crawler> {
 
-    Optional<Crawler> findOneById(int id);
-
     Optional<Crawler> findOneByIdUser(int idUser);
 
     int getWeaponIdByCrawlerId(int idCrawler);

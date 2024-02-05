@@ -13,9 +13,9 @@ import java.util.List;
 
 @Service
 public class CommandService {
-    private final Dice dice;
+    private final Dice              dice;
     private final CrawlerRepository crawlerRepository;
-    private final UserRepository userRepository;
+    private final UserRepository    userRepository;
 
 
     public CommandService(Dice dice, CrawlerRepository crawlerRepository, UserRepository userRepository) {
