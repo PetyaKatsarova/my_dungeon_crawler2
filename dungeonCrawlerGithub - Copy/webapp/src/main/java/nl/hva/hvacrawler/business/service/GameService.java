@@ -56,11 +56,6 @@ public class GameService {
         commandHandlers.put("drink", commandService::handleDrink);
     }
 
-    public Game getGameById(int idGame) {
-//        todo: need to collect all roooms, chests etc....
-        return gameRepository.findGameById(idGame);
-    }
-
     /**
      * Maakt een nieuw spel aan voor de opgegeven gebruiker met het opgegeven aantal rijen en kolommen.
      *
@@ -127,6 +122,12 @@ public class GameService {
      * @param arg      Het optionele argument dat bij het commando hoort (bijv. de richting bij "move").
      * @return Het bijgewerkte GameDTO-object na het verwerken van het commando.
      */
+
+    /*
+    * BiFunction is used to dynamically execute different command handlers based on the provided command string. The BiFunction
+    *  takes the current state of the game (gameDTO) and an argument (arg) and returns an updated game state (GameDTO). It is a flexible way to handle various
+    *  game commands with different logic implementations.
+    * */
     public GameDTO commandForGame(GameDTO gameDTO, String command, String arg) {
         BiFunction<GameDTO, String, GameDTO> handler = commandHandlers.get(command);
         if (handler != null) {

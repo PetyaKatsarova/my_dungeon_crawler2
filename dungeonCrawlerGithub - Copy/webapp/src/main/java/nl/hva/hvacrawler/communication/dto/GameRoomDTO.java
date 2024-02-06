@@ -9,11 +9,11 @@ import java.util.List;
 
 public class GameRoomDTO {
 
-    private int id;
-    private int row;
-    private int column;
-    private Chest chest;
-    private Item droppedItem;
+    private int     id;
+    private int     row;
+    private int     column;
+    private Chest   chest;
+    private Item    droppedItem;
     private Monster monster;
     private boolean visited;
     private boolean currentRoom;

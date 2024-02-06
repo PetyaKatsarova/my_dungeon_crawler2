@@ -67,7 +67,7 @@ function parseCommand(input) {
 function handleHelp() {
     printMessage("\nAvailable commands:");
     printMessage("- help: Display available commands");
-    printMessage("- createNewGame rows columns: Create a new game with the specified rows and columns");
+    printMessage("- createNewGame rowsNumber columnsNumber: Create a new game with the specified rows and columns");
     printMessage("- status: Display your statistics and current location");
     printMessage("- look: Examine your surroundings in the current room");
     printMessage("- move DIRECTION: Move the player in the specified direction (e.g., 'north', 'east', 'south', 'west')");
@@ -76,7 +76,7 @@ function handleHelp() {
     printMessage("- pickup holygrail: You win the game!");
     printMessage("- drink namePotion: Drink a health potion (if available)");
     printMessage("- fight: Engage in combat with a monster in the room (if available)");
-    printMessage("- save: save the game your playing. You can only save one game\n");
+    printMessage("- save: save the game your playing. You can only save your last game\n");
 }
 
 function handleCreateNewGame(args) {
@@ -95,7 +95,6 @@ function handleCreateNewGame(args) {
         createGetRequest(urlGetAPI, succeedGame, failGettingGame);
     }
 }
-
 
 function handleMove(cmd, args) {
     const gameData = JSON.parse(sessionStorage.getItem('game'));
@@ -362,7 +361,6 @@ function failDrink() {
     printMessage('Failed to consume potion') ;
 }
 
-
 const jwtToken = localStorage.getItem('token');
 
 const createGetRequest = function (url, succeed, fail) {
@@ -393,9 +391,7 @@ const succeedGame = function (data) {
     console.log("succeed data: " + gameData);
 
     printMessage("New game created");
-
-    // Call updateGameBoard to update the cell colors
-    updateGameBoard(gameData);
+    updateGameBoard(gameData); // Call updateGameBoard to update the cell colors
 }
 
 const failGettingGame = function (error) {
@@ -425,12 +421,8 @@ const createPutRequest = function (url, succeed, fail) {
 const succeedPut = function (data) {
     // Convert data to JSON object if it is a string
     const gameData = (typeof data === 'string') ? JSON.parse(data) : data;
-
     sessionStorage.setItem('game', JSON.stringify(gameData));
-    console.log(gameData);
-
-    // Call updateGameBoard to update the cell colors
-    updateGameBoard(gameData);
+    updateGameBoard(gameData);     // Call updateGameBoard to update the cell colors
 }
 
 const failPut = function (error) {

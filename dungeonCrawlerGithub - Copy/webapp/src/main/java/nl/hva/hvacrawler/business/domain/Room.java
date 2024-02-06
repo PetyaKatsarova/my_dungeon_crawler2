@@ -64,9 +64,6 @@ public class Room {
                 this.setMonster(new Monster());
                 this.setChest(new Chest());
                 break;
-//            case 3:
-//                this is an empty room: no action, we dont need tis case?
-//                break;
         }
     }
 

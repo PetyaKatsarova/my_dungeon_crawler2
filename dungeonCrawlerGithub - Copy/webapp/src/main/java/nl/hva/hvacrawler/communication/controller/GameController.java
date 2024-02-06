@@ -64,22 +64,22 @@ public class GameController {
         }
     }
 
-        @GetMapping("/resume")
-        @ResponseBody
-        public ResponseEntity<Game> resumePausedGame (@RequestHeader("Authorization") String jwtToken) {
-            User user = authorizationService.validateJWTToken(jwtToken);
-            if (user != null) {
-                Game game = gameService.resumeGame(user);
-                return ResponseEntity.ok(game);
-            } else {
-                throw new ResponseStatusException(HttpStatus.UNAUTHORIZED);
-            }
+    @GetMapping("/resume")
+    @ResponseBody
+    public ResponseEntity<Game> resumePausedGame (@RequestHeader("Authorization") String jwtToken) {
+        User user = authorizationService.validateJWTToken(jwtToken);
+        if (user != null) {
+            Game game = gameService.resumeGame(user);
+            return ResponseEntity.ok(game);
+        } else {
+            throw new ResponseStatusException(HttpStatus.UNAUTHORIZED);
         }
-
-        @GetMapping("/getGameById")
-        @ResponseBody
-        public Game getGameById ( @RequestParam("idGame") int idGame){
-            return gameService.getGameById(idGame);
-        }
-
     }
+//
+//    @GetMapping("/getGameById")
+//    @ResponseBody
+//    public Game getGameById ( @RequestParam("idGame") int idGame){
+//        return gameService.getGameById(idGame);
+//    }
+
+}

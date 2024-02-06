@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-family: 'MedievalSharp', sans-serif;
+    overflow-y: auto;
+    height: 100vh;
+    background-image: url('../images/index-dungeon1.png');
+    background-size: cover;
+    /*color: #ad9028;*/
+    color: whitesmoke;
+}
+
+   .main-container {
+        padding: 1.5em 0;
+        text-align: center;
+    }
+
+    h1, h2, h3, h4, h5{
+        margin: 1.5em 0;
+        text-align: center;
+    }

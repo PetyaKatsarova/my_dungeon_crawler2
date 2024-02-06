@@ -1116,99 +1116,707 @@ uitlaatservice|schema||userUitlaatService|localhost|UPDATE|G</Grants>
     <schema id="292" parent="1" name="hvacrawler">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="293" parent="1" name="information_schema">
+    <schema id="293" parent="1" name="hvacrawler_test">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="klanten">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="295" parent="1" name="linkedin">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="296" parent="1" name="mysql">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="297" parent="1" name="onlinesessions">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="298" parent="1" name="performance_schema">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="299" parent="1" name="projectbeheer">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="300" parent="1" name="quizmaster">
+    <schema id="294" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="301" parent="1" name="sakila">
+    <schema id="295" parent="1" name="klanten">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="302" parent="1" name="spring_demo">
+    <schema id="296" parent="1" name="linkedin">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="303" parent="1" name="sys">
+    <schema id="297" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="304" parent="1" name="uitlaatservice">
+    <schema id="298" parent="1" name="onlinesessions">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="305" parent="1" name="vak_renamed">
+    <schema id="299" parent="1" name="performance_schema">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="300" parent="1" name="projectbeheer">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="301" parent="1" name="quizmaster">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="306" parent="1" name="verzekeringsmaatschappij">
+    <schema id="302" parent="1" name="sakila">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="307" parent="1" name="werknemer">
+    <schema id="303" parent="1" name="spring_demo">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="308" parent="1" name="work1">
+    <schema id="304" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="309" parent="1" name="world">
+    <schema id="305" parent="1" name="uitlaatservice">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="310" parent="1" name="GameMaster">
+    <schema id="306" parent="1" name="vak_renamed">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="307" parent="1" name="verzekeringsmaatschappij">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="308" parent="1" name="werknemer">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="309" parent="1" name="work1">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="310" parent="1" name="world">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="311" parent="1" name="GameMaster">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="311" parent="1" name="mysql.infoschema">
+    <user id="312" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="312" parent="1" name="mysql.session">
+    <user id="313" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="313" parent="1" name="mysql.sys">
+    <user id="314" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="314" parent="1" name="root">
+    <user id="315" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="315" parent="1" name="urigeller">
+    <user id="316" parent="1" name="urigeller">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="316" parent="1" name="userHondenDienst">
+    <user id="317" parent="1" name="userHondenDienst">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="317" parent="1" name="userKlanten">
+    <user id="318" parent="1" name="userKlanten">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="318" parent="1" name="userOnlineSessions">
+    <user id="319" parent="1" name="userOnlineSessions">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="319" parent="1" name="userUitlaatService">
+    <user id="320" parent="1" name="userUitlaatService">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
+    <table id="321" parent="292" name="chest">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="322" parent="292" name="crawler">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="323" parent="292" name="crawler_has_potion">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="324" parent="292" name="game">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="325" parent="292" name="gold">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="326" parent="292" name="item">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="327" parent="292" name="monster">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="328" parent="292" name="potion">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="329" parent="292" name="room">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="330" parent="292" name="trap">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="331" parent="292" name="user">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="332" parent="292" name="verificationtoken">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <table id="333" parent="292" name="weapon">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </table>
+    <column id="334" parent="321" name="idChest">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="335" parent="321" name="idItem">
+      <DasType>int|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="336" parent="321" name="fk_Chest_Item1">
+      <ColNames>idItem</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>item</RefTableName>
+    </foreign-key>
+    <index id="337" parent="321" name="PRIMARY">
+      <ColNames>idChest</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="338" parent="321" name="fk_Chest_Item1_idx">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="339" parent="321" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="340" parent="322" name="idCrawler">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="341" parent="322" name="name">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="342" parent="322" name="healthPoints">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="343" parent="322" name="kills">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="344" parent="322" name="roomsVisited">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="345" parent="322" name="gold">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="346" parent="322" name="weapon">
+      <DasType>int|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="347" parent="322" name="idUser">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="348" parent="322" name="fk_Crawler_Weapon1">
+      <ColNames>weapon</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>weapon</RefTableName>
+    </foreign-key>
+    <foreign-key id="349" parent="322" name="fk_Player_User1">
+      <ColNames>idUser</ColNames>
+      <RefColNames>idUser</RefColNames>
+      <RefTableName>user</RefTableName>
+    </foreign-key>
+    <index id="350" parent="322" name="PRIMARY">
+      <ColNames>idCrawler</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="351" parent="322" name="name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="352" parent="322" name="fk_Crawler_Weapon1_idx">
+      <ColNames>weapon</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="353" parent="322" name="fk_Player_User1_idx">
+      <ColNames>idUser</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="354" parent="322" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="355" parent="322" name="name">
+      <UnderlyingIndexName>name</UnderlyingIndexName>
+    </key>
+    <column id="356" parent="323" name="idCrawler">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="357" parent="323" name="idItem_Potion">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="358" parent="323" name="quantity">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="359" parent="323" name="fk_Crawler_has_Potion_Crawler1">
+      <ColNames>idCrawler</ColNames>
+      <RefColNames>idCrawler</RefColNames>
+      <RefTableName>crawler</RefTableName>
+    </foreign-key>
+    <foreign-key id="360" parent="323" name="fk_Crawler_has_Potion_Potion1">
+      <ColNames>idItem_Potion</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>potion</RefTableName>
+    </foreign-key>
+    <index id="361" parent="323" name="PRIMARY">
+      <ColNames>idCrawler
+idItem_Potion</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="362" parent="323" name="fk_Crawler_has_Potion_Crawler1_idx">
+      <ColNames>idCrawler</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="363" parent="323" name="fk_Crawler_has_Potion_Potion1_idx">
+      <ColNames>idItem_Potion</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="364" parent="323" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="365" parent="324" name="idGame">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="366" parent="324" name="status">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="367" parent="324" name="finalScore">
+      <DasType>int|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="368" parent="324" name="finishedAt">
+      <DasType>date|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="369" parent="324" name="idCrawler">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="370" parent="324" name="fk_Game_Player1">
+      <ColNames>idCrawler</ColNames>
+      <RefColNames>idCrawler</RefColNames>
+      <RefTableName>crawler</RefTableName>
+    </foreign-key>
+    <index id="371" parent="324" name="PRIMARY">
+      <ColNames>idGame</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="372" parent="324" name="fk_Game_Player1_idx">
+      <ColNames>idCrawler</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="373" parent="324" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="374" parent="325" name="idItem">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="375" parent="325" name="value">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="376" parent="325" name="fk_Gold_Item1">
+      <ColNames>idItem</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>item</RefTableName>
+    </foreign-key>
+    <index id="377" parent="325" name="PRIMARY">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="378" parent="325" name="fk_Gold_Item1_idx">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="379" parent="325" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="380" parent="326" name="idItem">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="381" parent="326" name="name">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="382" parent="326" name="PRIMARY">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="383" parent="326" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="384" parent="327" name="idMonster">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="385" parent="327" name="name">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="386" parent="327" name="healthpoints">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="387" parent="327" name="PRIMARY">
+      <ColNames>idMonster</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="388" parent="327" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="389" parent="328" name="idItem">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="390" parent="328" name="healthPoints">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="391" parent="328" name="fk_Gold_Item10">
+      <ColNames>idItem</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>item</RefTableName>
+    </foreign-key>
+    <index id="392" parent="328" name="PRIMARY">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="393" parent="328" name="fk_Gold_Item1_idx">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="394" parent="328" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="395" parent="329" name="idRoom">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="396" parent="329" name="row">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="397" parent="329" name="column">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="398" parent="329" name="holygrail">
+      <DasType>tinyint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="399" parent="329" name="currentRoom">
+      <DasType>tinyint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="400" parent="329" name="visitedRoom">
+      <DasType>tinyint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="401" parent="329" name="idGame">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="402" parent="329" name="idMonster">
+      <DasType>int|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="403" parent="329" name="healthMonster">
+      <DasType>int|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="404" parent="329" name="goldMonster">
+      <DasType>int|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="405" parent="329" name="idChest">
+      <DasType>int|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="406" parent="329" name="droppedItem">
+      <DasType>int|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <foreign-key id="407" parent="329" name="fk_Room_Game1">
+      <ColNames>idGame</ColNames>
+      <RefColNames>idGame</RefColNames>
+      <RefTableName>game</RefTableName>
+    </foreign-key>
+    <foreign-key id="408" parent="329" name="fk_Room_Monster1">
+      <ColNames>idMonster</ColNames>
+      <RefColNames>idMonster</RefColNames>
+      <RefTableName>monster</RefTableName>
+    </foreign-key>
+    <foreign-key id="409" parent="329" name="fk_Room_Chest1">
+      <ColNames>idChest</ColNames>
+      <RefColNames>idChest</RefColNames>
+      <RefTableName>chest</RefTableName>
+    </foreign-key>
+    <foreign-key id="410" parent="329" name="fk_Room_Item1">
+      <ColNames>droppedItem</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>item</RefTableName>
+    </foreign-key>
+    <index id="411" parent="329" name="PRIMARY">
+      <ColNames>idRoom</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="412" parent="329" name="fk_Room_Game1_idx">
+      <ColNames>idGame</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="413" parent="329" name="fk_Room_Monster1_idx">
+      <ColNames>idMonster</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="414" parent="329" name="fk_Room_Chest1_idx">
+      <ColNames>idChest</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="415" parent="329" name="fk_Room_Item1">
+      <ColNames>droppedItem</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="416" parent="329" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="417" parent="330" name="idItem">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="418" parent="330" name="damagePoints">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="419" parent="330" name="fk_Gold_Item100">
+      <ColNames>idItem</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>item</RefTableName>
+    </foreign-key>
+    <index id="420" parent="330" name="PRIMARY">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="421" parent="330" name="fk_Gold_Item1_idx">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="422" parent="330" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="423" parent="331" name="idUser">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="424" parent="331" name="email">
+      <DasType>varchar(70)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="425" parent="331" name="password">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="426" parent="331" name="salt">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="427" parent="331" name="isVerified">
+      <DasType>tinyint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="428" parent="331" name="resetToken">
+      <DasType>varchar(6)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="429" parent="331" name="jwtToken">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="430" parent="331" name="highscore">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <index id="431" parent="331" name="PRIMARY">
+      <ColNames>idUser</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="432" parent="331" name="email_UNIQUE">
+      <ColNames>email</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="433" parent="331" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="434" parent="331" name="email_UNIQUE">
+      <UnderlyingIndexName>email_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="435" parent="332" name="idVerificationToken">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="436" parent="332" name="token">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="437" parent="332" name="expirationTime">
+      <DasType>datetime(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="438" parent="332" name="idUser">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="439" parent="332" name="fk_VerificationToken_User1">
+      <ColNames>idUser</ColNames>
+      <RefColNames>idUser</RefColNames>
+      <RefTableName>user</RefTableName>
+    </foreign-key>
+    <index id="440" parent="332" name="PRIMARY">
+      <ColNames>idVerificationToken
+idUser</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="441" parent="332" name="fk_VerificationToken_User1_idx">
+      <ColNames>idUser</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="442" parent="332" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="443" parent="333" name="idItem">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="444" parent="333" name="attackModifier">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="445" parent="333" name="fk_Gold_Item101">
+      <ColNames>idItem</ColNames>
+      <RefColNames>idItem</RefColNames>
+      <RefTableName>item</RefTableName>
+    </foreign-key>
+    <index id="446" parent="333" name="PRIMARY">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="447" parent="333" name="fk_Gold_Item1_idx">
+      <ColNames>idItem</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="448" parent="333" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>

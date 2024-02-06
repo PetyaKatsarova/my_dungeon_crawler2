@@ -6,19 +6,22 @@ import nl.hva.hvacrawler.communication.dto.GameDTO;
 import nl.hva.hvacrawler.communication.dto.GameRoomDTO;
 import nl.hva.hvacrawler.persistence.repository.CrawlerRepository;
 import nl.hva.hvacrawler.persistence.repository.GameRepository;
+import nl.hva.hvacrawler.persistence.repository.RoomRepository;
 import nl.hva.hvacrawler.persistence.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class SaveService {
 
-    private final GameRepository gameRepository;
+    private final GameRepository    gameRepository;
+    private final RoomRepository    roomRepository;
     private final CrawlerRepository crawlerRepository;
-    private final UserRepository userRepository;
+    private final UserRepository    userRepository;
 
-    public SaveService(GameRepository gameRepository, CrawlerRepository crawlerRepository,
+    public SaveService(GameRepository gameRepository, RoomRepository roomRepository, CrawlerRepository crawlerRepository,
                        UserRepository userRepository) {
         this.gameRepository = gameRepository;
+        this.roomRepository = roomRepository;
         this.crawlerRepository = crawlerRepository;
         this.userRepository = userRepository;
     }
@@ -27,7 +30,7 @@ public class SaveService {
         Game game = GameDTOToGameConverter(gameDTO);
         Game gameWithId = gameRepository.saveOrUpdateGame(game);
         gameDTO.setId(gameWithId.getId());
-//        gameDTO.setGameBoard(gameWithId.getGameBoard());
+//       update room's ids in the the gamedto
         Room[][] gameboard = gameWithId.getGameBoard();
         GameRoomDTO[][] gameboardDTO = gameDTO.getGameBoard();
         for (int i = 0; i < gameWithId.getRows(); i++) {
@@ -36,6 +39,7 @@ public class SaveService {
                 room.setId(gameboard[i][j].getId());
             }
         }
+        gameDTO.setGameBoard(gameboardDTO);
         return gameDTO;
     }
 
@@ -56,6 +60,7 @@ public class SaveService {
                 GameRoomDTO gameRoomDTO = gameBoardDTO[i][j];
                 Room room = makingRoomFromDTO(gameRoomDTO);
                 room.setGame(game);
+                roomRepository.saveOrUpdateOne(room);
                 gameboard[i][j] = room;
             }
         }

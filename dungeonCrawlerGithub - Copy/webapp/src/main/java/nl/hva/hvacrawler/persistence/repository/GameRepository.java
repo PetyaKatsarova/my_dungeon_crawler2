@@ -49,6 +49,7 @@ public class GameRepository {
                 room.setGame(game);
                 Room roomWithId = roomRepository.saveOrUpdateOne(room);
                 room.setId(roomWithId.getId());
+                gameboard[i][j] = roomWithId;
             }
         }
         gameWithId.setGameBoard(gameboard);
