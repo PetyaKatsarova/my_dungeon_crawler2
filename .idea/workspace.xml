@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b3057f-c6b3-48b0-b97a-be1b22154d9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/SaveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/SaveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameRoomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameRoomDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/DnD-1stmission movie.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/indexStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/Dungeon_Crawler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/faq_dungeon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/parchment-Main-Computer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/domain/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/domain/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService$Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService$Coordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService$Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/GameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/SaveService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/SaveService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/communication/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/communication/controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/persistence/repository/GameRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/persistence/repository/GameRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/css/indexStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/images/Dungeon_Crawler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/images/faq_dungeon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/images/parchment-Main-Computer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/game.js" afterDir="false" />
-    </list>
+    <list default="true" id="07b3057f-c6b3-48b0-b97a-be1b22154d9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707131735254</updated>
-      <workItem from="1707131737098" duration="35620000" />
+      <workItem from="1707131737098" duration="36280000" />
     </task>
     <servers />
   </component>
