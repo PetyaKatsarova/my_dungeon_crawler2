@@ -5,40 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b3057f-c6b3-48b0-b97a-be1b22154d9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Crawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/AuthorizationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/ChestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/ChestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/CommandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/CrawlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/CrawlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameCrawlerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameCrawlerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameRoomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameRoomDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/CrawlerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/CrawlerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcCrawlerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcCrawlerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/CrawlerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/CrawlerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/heartbeat.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/indexStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/faq_not_loggedin.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/faq_not_loggedin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/loginScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/loginScreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/registrationScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/registrationScreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/victory.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/victory.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/GameButton's.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/GameButton's.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/gameboard.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/handelingLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/handelingLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/mainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/mainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/css/indexStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/faq_not_loggedin.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/faq_not_loggedin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/loginScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/loginScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/registrationScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/html/registrationScreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/handelingLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/handelingLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/mainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/mainMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -101,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707131735254</updated>
-      <workItem from="1707131737098" duration="12187000" />
+      <workItem from="1707131737098" duration="22029000" />
     </task>
     <servers />
   </component>

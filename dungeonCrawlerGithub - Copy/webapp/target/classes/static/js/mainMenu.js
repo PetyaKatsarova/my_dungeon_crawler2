@@ -7,9 +7,9 @@ document.getElementById('resumeGame').addEventListener('click', () => {
     window.location.href = '../html/game.html';
 });
 
-document.getElementById('Leaderboard').addEventListener('click', () => {
-    window.location.href = '../html/leaderboard.html'; // Redirect to the leaderboard page
-});
+// document.getElementById('Leaderboard').addEventListener('click', () => {
+//     window.location.href = '../html/leaderboard.html'; // Redirect to the leaderboard page
+// });
 
 
 document.getElementById('logOut').addEventListener('click', () => {
@@ -17,6 +17,7 @@ document.getElementById('logOut').addEventListener('click', () => {
 });
 
 document.getElementById('help').addEventListener('click', () => {
+    console.log(" ----------- trla alal -----------")
     window.location.href = '../html/faq.html';
 });
 

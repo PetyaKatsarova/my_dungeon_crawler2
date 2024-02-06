@@ -1,67 +1,102 @@
-.video-background {
-    position: relative;
-    width: 100%;
-    height: 1000px;
-    overflow: hidden;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-family: 'MedievalSharp', sans-serif;
+    overflow-y: auto;
+    height: 100vh;
+    background-image: url('../images/faq_dungeon.jpg');
+    background-size: cover;
 }
 
-.video-background video {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
+.nav-links li a{
+    color: cadetblue;
+    font-weight: 700;
+    margin-right: .7em;
 }
 
-.video-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.faq-container {
     text-align: center;
-    color: #fff;
+    overflow-y: auto;
+    margin-top: 7em;
+    transform: scaleY(0); /* Flatten the container */
+    transform-origin: top; /* The point from which the animation starts */
+    animation: rollOut 2s forwards; /* Animation name, duration, and make sure the animation state persists after it completes */
+    min-height: 75vh; /*pushes footer to the bottom of the page*/
 }
 
-.logo{
-    size: 16px;
-}
-
-.video-overlay h2 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.video-overlay p {
-    font-size: 1.5rem;
-}
-
-.video-overlay a{
-    text-decoration: none; /* Verwijder onderstreping van de link */
-    color: #0077cc; /* Kleur van de link */
-    transition: color 0.3s; /* Overgang voor kleurverandering */
-    font-weight: bold; /* Vetgedrukte tekst */
-}
-
-.video-overlay a:hover {
-    color: #ff6600; /* Andere kleur bij hover */
-}
-
-
-
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
+/*!*for smooth display on page load*!*/
+@keyframes rollOut {
+    to {
+        transform: scaleY(1); /* Fully unroll the container */
     }
 }
 
-.video-overlay h2.fade-out,
-.video-overlay p.fade-out,
-.video-overlay a.fade-out {
-    animation: fadeOut 15s ease-out 3s forwards;
+.faq-question, .faq-answer {
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    box-shadow: 10px 5px 5px #333;
 }
 
+/*.faq-question {*/
+/*    width: 30%;*/
+/*    max-resolution: 5px;*/
+/*    cursor: pointer;*/
+/*    background: linear-gradient(to bottom, #282d36, #738e94);*/
+/*}*/
 
+/*.faq-answer {*/
+/*    width: 70%;*/
+/*    max-height: 0;*/
+/*    opacity: 0;*/
+/*    overflow: hidden;*/
+/*    background: linear-gradient(to bottom, #282d36, #6b663c);*/
+/*    background: linear-gradient(to bottom, #796080, #baa6bf);*/
+/*    animation: collapse 0.5s ease forwards;*/
+/*    display: none;*/
+/*}*/
+
+/*.faq-answer.show {*/
+/*    animation: expand 0.5s ease forwards;*/
+/*    display: block;*/
+/*}*/
+
+/*@keyframes expand {*/
+/*    0% {*/
+/*        max-height: 0;*/
+/*        opacity: 0;*/
+/*        padding: 0 1em;*/
+/*    }*/
+/*    50% {*/
+/*        max-height: 50vh;*/
+/*        opacity: .5;*/
+/*        padding: 1em;*/
+/*    }*/
+/*    100% {*/
+/*        max-height: 100vh;*/
+/*        opacity: 1;*/
+/*        padding: 1em;*/
+/*    }*/
+/*}*/
+
+/*@keyframes collapse {*/
+/*    0% {*/
+/*        max-height: 100vh;*/
+/*        opacity: 1;*/
+/*        padding: 1em;*/
+/*    }*/
+/*    50% {*/
+/*        max-height: 50vh;*/
+/*        opacity: .5;*/
+/*        padding: 1em;*/
+/*    }*/
+/*    100% {*/
+/*        max-height: 0;*/
+/*        opacity: 0;*/
+/*        padding: 0 1em;*/
+/*    }*/
+/*}*/

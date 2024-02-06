@@ -27,7 +27,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     const succeed = function(data) {
         localStorage.setItem('token', data);
-        window.location.href = '../html/game.html'     //'../html/main.html';
+        window.location.href = '/html/gameboard.html'     //'../html/main.html';
     }
 
     const fail = function(error) {
