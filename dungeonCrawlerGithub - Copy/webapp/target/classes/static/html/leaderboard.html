@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboards</title>
+    <link rel="stylesheet" href="../css/mainStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=MedievalSharp&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <button id="backToMenu">Back to Main Menu</button>
+        <h2>Leaderboard</h2>
+        <div class="search-box">
+            <input type="number" id="rankSearch" placeholder="Search by Rank" min="1">
+            <input type="text" id="nameSearch" placeholder="Search by Name">
+        </div>
+        <h3>Search Results</h3>
+        <div id="searchResults">
+            <!-- Search results will be populated here -->
+        </div>
+        <h3>Top 10 Crawlers</h3>
+        <div id="leaderboardView">
+            <!-- Leaderboard content will be populated here -->
+        </div>
+    </div>
+    <script src="../js/leaderboard.js" defer></script>
+    <div class="fire-bg"></div>
+    <!-- vuur animatie -->
+</body>
+</html>

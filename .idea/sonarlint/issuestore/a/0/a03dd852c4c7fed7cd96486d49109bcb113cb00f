@@ -1,0 +1,27 @@
+
+t
+java:S1488È"^Immediately return this expression instead of assigning it to the temporary variable "column".(Üù¸
+w
+java:S1488Ô"[Immediately return this expression instead of assigning it to the temporary variable "row".(äû˜ñùÿÿÿÿ
+`
+java:S2259Ê"DA "NullPointerException" could be thrown; "column" is nullable here.(…·úùÿÿÿÿ
+[
+java:S22592"EA "NullPointerException" could be thrown; "getKey()" can return null.(²ö‰Ô
+X
+java:S2259Ö"AA "NullPointerException" could be thrown; "row" is nullable here.(Ğ‘˜
+d
+java:S2095I"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¦èÌ4
+2
+java:S1116V"Remove this empty statement.(â£†œ
+\
+java:S3457l"AFormat specifiers should be used instead of string concatenation.(ü¦è˜üÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(şìşÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(şìşÿÿÿÿ
+L
+java:S1874È"6Remove this use of "queryForObject"; it is deprecated.(Üù¸
+R
+java:S1874Ô"6Remove this use of "queryForObject"; it is deprecated.(äû˜ñùÿÿÿÿ
+D
+java:S1874ß"-Remove this use of "query"; it is deprecated.(Ãˆüş
+M
+java:S1874ë"6Remove this use of "queryForObject"; it is deprecated.(íÓß

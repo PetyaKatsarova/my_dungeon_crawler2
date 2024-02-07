@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>THE GAME</title>
+    <link rel="stylesheet" type="text/css" href="../css/gameStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/navBarStyles.css">
+    <link rel="stylesheet" type="text/css" href="../css/GameButtonStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/footerStyles.css">
+    <script src="../js/game.js" defer></script>
+    <script src="../js/GameButton's.js" defer></script>
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/favicon-32x32.png" sizes="30x30" alt="Logo"></a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/main.html">Menu</a></li>
+<!--        <li><a href="../html/leaderboard.html">HighScore</a></li>-->
+        <li><a href="../html/faq.html">Help</a></li>
+        <li><a href="../index.html" onclick="logout()">Log out</a></li>
+    </ul>
+</nav>
+<div id="game-wrapper">
+    <div id="terminal"></div>
+        <div id="input-container">
+        <input id="input" autofocus/>
+    </div>
+    <div id="game-buttons">
+        <button id="status-button">Status</button>
+        <button id="fight-button">Fight</button>
+        <button id="pickup-button">Pickup</button>
+        <button id="open-button">Open</button>
+        <button id="look-button">Look</button>
+    </div>
+    <div id="move-arrows">
+        <img src="../assets/up-arrow_64797.png" alt="move-up" id="move-up">
+        <img src="../assets/left-arrow.png" alt="move-left" id="move-left">
+        <img src="../assets/right-arrow.png" alt="move-right" id="move-right">
+        <img src="../assets/down-arrow.png" alt="move-down" id="move-down">
+    </div>
+
+    <h1>Map</h1>
+    <div class="grid-container">
+        <div class="grid-item current"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+
+</div>
+<div class="footer-container">
+    <footer>
+        <p>&copy; 2023 HvaCrawlers. Alle rechten voorbehouden.</p>
+    </footer>
+</div>
+</body>
+</html>

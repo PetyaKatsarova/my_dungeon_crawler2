@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/navBarStyles.css">
+    <link rel="stylesheet" type="text/css" href="../css/footerStyles.css">
+    <link rel="stylesheet" type="text/css" href="../css/faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <img src="../assets/favicon-32x32.png" sizes="30x30" alt="Logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="/html/loginScreen.html">Login</a></li>
+        <li><a href="/html/registrationScreen.html">Signup</a></li>
+    </ul>
+</nav>
+<div class="faq-container">
+    <div class="faq-item">
+        <div class="faq-question">What is this website about?</div>
+        <div class="faq-answer">This website is a cool text game. You create a game with the command CreateNewGame and entering the number of rows and columns of the desired gameboard(rooms). You start from a central room. Every room might have a closed chest,
+            monster or the Holy Grail. You can open the chest, which has different items in it or fight a monster. You win once you discover the Holy Grail. You loose once you lost all your HitPoints.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question" id="monster-question">How can I start playing? </div>
+        <div class="faq-answer">first you need to signup: select a 'crawler' name and give your email address. After that
+        you need to click the confirmation link received from us in you mail box. This is for security reasons.
+        After that you can click on 'signin' link and enter your credentials. A new screen shows up with a button
+        start a new game. Enjoy it!</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">How do you calculate the score of a completed game?</div>
+        <div class="faq-answer">
+            <p>For each:</p>
+            <p>* gold piece are given 50 points</p>
+            <p>* health point are given 100 points</p>
+            <p>* opened door you loose 50 points</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">What do you show on the score board?</div>
+        <div class="faq-answer">We show the top five games with the highest score</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Who can I contact for support?</div>
+        <div class="faq-answer">Please email dungeonCrawlers@hva.nl for any queries.</div>
+    </div>
+</div>
+<div class="footer-container">
+    <footer>
+        <p>&copy; 2023 HvaCrawlers. Alle rechten voorbehouden.</p>
+    </footer>
+</div>
+<script src="../js/faq.js"></script>
+</body>
+</html>

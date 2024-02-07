@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>victoryPage!</title>
+    <link rel="stylesheet" href="../css/victoryStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navBarStyles.css">
+    <script src="../js/victory.js" ></script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/favicon-32x32.png" sizes="30x30" alt="Logo"></a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="leaderboard.html">HighScore</a></li>
+        <li><a href="loginScreen.html">Log Out</a></li>
+    </ul>
+</nav>
+<div class="video-background">
+    <!-- Video-achtergrond -->
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="../assets/dungeon.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h1> You've found the Holy Grail</h1>
+    <p>Congratulations! You have ended your quest successfully! </p>
+</div>
+<div id="highscore-container">
+    <h2>Top 10 High Scores</h2>
+    <ul id="scoreList">
+    </ul>
+</div>
+
+<div class="audio-container">
+    <audio id="victorySound" autoplay loop>
+        <source src="../assets/victory.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+</body>
+</html>
+

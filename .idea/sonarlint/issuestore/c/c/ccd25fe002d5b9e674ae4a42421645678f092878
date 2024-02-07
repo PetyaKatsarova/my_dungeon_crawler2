@@ -1,0 +1,25 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ôıƒŞşÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(²àÑù
+g
+java:S3655Y"LCall "weapon.isPresent()" or "!weapon.isEmpty()" before accessing the value.(Äô®Éüÿÿÿÿ
+^
+java:S3655p"HCall "gold.isPresent()" or "!gold.isEmpty()" before accessing the value.(åº
+^
+java:S3655\"HCall "gold.isPresent()" or "!gold.isEmpty()" before accessing the value.(¾£‘¹
+c
+java:S3655v"HCall "trap.isPresent()" or "!trap.isEmpty()" before accessing the value.(ªüÒúÿÿÿÿ
+g
+java:S3655m"LCall "weapon.isPresent()" or "!weapon.isEmpty()" before accessing the value.(üëüÿÿÿÿ
+b
+java:S3655s"LCall "potion.isPresent()" or "!potion.isEmpty()" before accessing the value.(—Ä›‚
+g
+java:S3655_"LCall "potion.isPresent()" or "!potion.isEmpty()" before accessing the value.(ºî•šúÿÿÿÿ
+y
+java:S3655K"^Call "monsterOptional.isPresent()" or "!monsterOptional.isEmpty()" before accessing the value.(íÃúèşÿÿÿÿ
+^
+java:S3655b"HCall "trap.isPresent()" or "!trap.isEmpty()" before accessing the value.(„éèÓ
+h
+java:S3776C"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¶Ôœª

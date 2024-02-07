@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/navBarStyles.css">
+    <link rel="stylesheet" type="text/css" href="../css/loginScreenStyle.css">
+    <script src="../js/handelingLogin.js" defer></script>
+</head>
+
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <a href="../index.html"><img src="../assets/favicon-32x32.png" sizes="30x30" alt="Logo"></a>
+    </div>
+    <ul class="nav-links">
+<!--        <li><a href="../html/leaderboard.html">HighScore</a></li>-->
+        <li><a href="../html/registrationScreen.html">Signup</a></li>
+        <li><a href="../html/faq_not_loggedin.html">Help</a></li>
+    </ul>
+</nav>
+<div id="login-page-wrapper">
+    <div class="login-container">
+        <h2>Login</h2>
+        <div id="error" hidden>
+            <p>Email and password combination is not known</p>
+        </div>
+        <form action="/login" method="POST" enctype="application/x-www-form-urlencoded">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <a href="../html/forgot-password.html">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

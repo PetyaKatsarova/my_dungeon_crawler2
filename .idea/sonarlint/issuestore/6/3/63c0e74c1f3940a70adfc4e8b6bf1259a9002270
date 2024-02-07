@@ -1,0 +1,17 @@
+
+v
+java:S1488o"`Immediately return this expression instead of assigning it to the temporary variable "weaponid".(‹ÄË¶
+y
+java:S1488|"^Immediately return this expression instead of assigning it to the temporary variable "userid".(ìİ‘ıÿÿÿÿ
+h
+java:S2259‰"LA "NullPointerException" could be thrown; "queryForObject" is nullable here.(†¨’ˆûÿÿÿÿ
+a
+java:S2259q"FA "NullPointerException" could be thrown; "weaponid" is nullable here.(³ûÌ»ùÿÿÿÿ
+[
+java:S2259;"EA "NullPointerException" could be thrown; "getKey()" can return null.(²ö‰Ô
+Z
+java:S2259~"DA "NullPointerException" could be thrown; "userid" is nullable here.(Ñªıã
+L
+java:S1874o"6Remove this use of "queryForObject"; it is deprecated.(‹ÄË¶
+Q
+java:S1874|"6Remove this use of "queryForObject"; it is deprecated.(ìİ‘ıÿÿÿÿ

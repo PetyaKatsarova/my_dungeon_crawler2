@@ -1,0 +1,7 @@
+
+v	java:S116"\Rename this field "MAX_HEALTH_POINTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÔË²øÿÿÿÿ
+r	java:S116"XRename this field "STARTING_GOLD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âžóÀøÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(ÌÔË²øÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(âžóÀøÿÿÿÿ
