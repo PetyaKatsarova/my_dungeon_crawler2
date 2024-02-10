@@ -187,7 +187,7 @@ function currentRoom(gameData) {
 function roomInfoMessage(currentRoom) {
     const doors = currentRoom.doors;
     let numberOfObjects = 0;
-    let msg = `You are in a room on row ${currentRoom.row} and column ${currentRoom.column}\nYou have ${doors.length} doors: `;
+    let msg = `You are in a room on row ${currentRoom.row+1} and column ${currentRoom.column+1}\nYou have ${doors.length} doors: `;
 
     for (let i = 0; i < doors.length; i++)
         msg += doors[i] + ", ";

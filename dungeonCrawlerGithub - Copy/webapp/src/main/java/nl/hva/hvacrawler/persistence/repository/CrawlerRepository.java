@@ -29,6 +29,7 @@ public class CrawlerRepository {
         logger.info("New CrawlerRepository");
     }
 
+
     public Crawler saveOrUpdateOne(Crawler crawler) {
         return jdbcCrawlerDao.saveOrUpdateOne(crawler);
     }

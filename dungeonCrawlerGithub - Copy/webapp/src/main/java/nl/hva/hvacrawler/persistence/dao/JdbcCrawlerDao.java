@@ -24,8 +24,8 @@ import java.util.Optional;
 @Repository
 public class JdbcCrawlerDao implements BaseDao<Crawler>, CrawlerDao {
 
-    private final Logger logger = LoggerFactory.getLogger(JdbcCrawlerDao.class);
-    private final JdbcTemplate jdbcTemplate;
+    private final Logger        logger = LoggerFactory.getLogger(JdbcCrawlerDao.class);
+    private final JdbcTemplate  jdbcTemplate;
 
     public JdbcCrawlerDao(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
@@ -50,7 +50,7 @@ public class JdbcCrawlerDao implements BaseDao<Crawler>, CrawlerDao {
                 ps.setString(1, crawler.getName());
                 ps.setInt(2, crawler.getHealthPoints());
                 ps.setInt(3, crawler.getKills());
-                ps.setInt(4, crawler.getRoomsVisited());
+                ps.setInt(4, crawler.getRoomsVisited() + 1); // first room is 0
                 ps.setInt(5, crawler.getGold());
                 ps.setInt(6, crawler.getWeapon().getId());
                 ps.setInt(7, crawler.getUser().getIdUser());

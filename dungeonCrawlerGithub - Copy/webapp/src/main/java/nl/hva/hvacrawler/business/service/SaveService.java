@@ -4,26 +4,25 @@ import nl.hva.hvacrawler.business.domain.*;
 import nl.hva.hvacrawler.communication.dto.GameCrawlerDTO;
 import nl.hva.hvacrawler.communication.dto.GameDTO;
 import nl.hva.hvacrawler.communication.dto.GameRoomDTO;
-import nl.hva.hvacrawler.persistence.repository.CrawlerRepository;
-import nl.hva.hvacrawler.persistence.repository.GameRepository;
-import nl.hva.hvacrawler.persistence.repository.RoomRepository;
-import nl.hva.hvacrawler.persistence.repository.UserRepository;
+import nl.hva.hvacrawler.persistence.repository.*;
 import org.springframework.stereotype.Service;
 
 @Service
 public class SaveService {
 
-    private final GameRepository    gameRepository;
-    private final RoomRepository    roomRepository;
-    private final CrawlerRepository crawlerRepository;
-    private final UserRepository    userRepository;
+    private final GameRepository                gameRepository;
+    private final RoomRepository                roomRepository;
+    private final CrawlerRepository             crawlerRepository;
+    private final UserRepository                userRepository;
+    private final CrawlerHasPotionRepository    crawlerHasPotionRepository;
 
     public SaveService(GameRepository gameRepository, RoomRepository roomRepository, CrawlerRepository crawlerRepository,
-                       UserRepository userRepository) {
+                       UserRepository userRepository, CrawlerHasPotionRepository crawlerHasPotionRepository) {
         this.gameRepository = gameRepository;
         this.roomRepository = roomRepository;
         this.crawlerRepository = crawlerRepository;
         this.userRepository = userRepository;
+        this.crawlerHasPotionRepository = crawlerHasPotionRepository;
     }
 
     public GameDTO handleSave(GameDTO gameDTO) {

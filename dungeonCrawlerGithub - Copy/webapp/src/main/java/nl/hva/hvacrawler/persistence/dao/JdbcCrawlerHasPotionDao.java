@@ -12,10 +12,10 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Repository
-public class JdbcCrawlerHasPotionDao implements CrawlerHasPotionDao{
+public class JdbcCrawlerHasPotionDao implements CrawlerHasPotionDao {
 
-    private final Logger logger = LoggerFactory.getLogger(JdbcCrawlerHasPotionDao.class);
-    private final JdbcTemplate jdbcTemplate;
+    private final Logger        logger = LoggerFactory.getLogger(JdbcCrawlerHasPotionDao.class);
+    private final JdbcTemplate  jdbcTemplate;
 
     public JdbcCrawlerHasPotionDao(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
