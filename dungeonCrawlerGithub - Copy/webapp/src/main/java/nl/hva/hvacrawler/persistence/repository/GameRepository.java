@@ -22,7 +22,7 @@ import java.util.Optional;
 
 @Repository
 public class GameRepository {
-    private final Logger logger = LoggerFactory.getLogger(GameRepository.class);
+    private final Logger                    logger = LoggerFactory.getLogger(GameRepository.class);
     private final JdbcGameDao               jdbcGameDao;
     private final RoomRepository            roomRepository;
     private final JdbcCrawlerDao            jdbcCrawlerDao;

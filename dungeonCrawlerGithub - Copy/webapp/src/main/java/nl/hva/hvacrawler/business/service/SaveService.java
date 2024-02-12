@@ -39,6 +39,7 @@ public class SaveService {
             }
         }
         gameDTO.setGameBoard(gameboardDTO);
+        // save in crawlerHasPotion
         return gameDTO;
     }
 

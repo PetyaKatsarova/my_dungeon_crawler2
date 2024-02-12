@@ -259,8 +259,8 @@ function handleOpen(cmd) {
             }
             createPutRequest(putUrl, succeedPut, failPut);
             setTimeout(function() {
-                const nieuweGameData = JSON.parse(sessionStorage.getItem('game'));
-                if (nieuweGameData.gameOwner === null) {
+                const newGameData = JSON.parse(sessionStorage.getItem('game'));
+                if (newGameData.gameOwner === null) {
                     sessionStorage.removeItem("game");
                     printMessage("You died. GAME OVER!");
                     setTimeout(function () {
@@ -340,7 +340,7 @@ function handleDrink(cmd, args) {
 
         if (potions && potions.length > 0) {
             const putUrl = urlPutAPI + "?command=" + cmd + "&argument=" + potionChoice;
-            createPutRequest(putUrl, succeedDrink, failDrink);
+            createPutRequest(putUrl, succeedDrink, printMessage('Failed to consume potion'));
         } else {
             printMessage("You have no potions");
         }
@@ -355,10 +355,6 @@ function succeedDrink(data) {
     const gameOwner = gameData.gameOwner;
     const healthPoints = gameOwner ? gameOwner.healthPoints : "unknown";
     printMessage(`Potion consumed successfully. Your current health points: ${healthPoints}`);
-}
-
-function failDrink() {
-    printMessage('Failed to consume potion') ;
 }
 
 const jwtToken = localStorage.getItem('token');
@@ -403,6 +399,7 @@ const failGettingGame = function (error) {
 const urlPutAPI = 'http://localhost:8080/game/command';
 const createPutRequest = function (url, succeed, fail) {
     const sendGame = JSON.parse(sessionStorage.getItem('game'));
+    // loop through visitted rooms from the game gameboard and check for Potion, push Potion object in gameOwner.healthPotions arr
     console.log('senddata:', sendGame);
     fetch(url, {
         method: 'PUT',
@@ -416,7 +413,6 @@ const createPutRequest = function (url, succeed, fail) {
         .then((data) => succeed(data))
         .catch((error) => fail(error))
 };
-
 
 const succeedPut = function (data) {
     // Convert data to JSON object if it is a string
