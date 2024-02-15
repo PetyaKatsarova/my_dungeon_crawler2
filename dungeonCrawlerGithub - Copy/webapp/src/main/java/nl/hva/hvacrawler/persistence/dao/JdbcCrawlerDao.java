@@ -50,7 +50,7 @@ public class JdbcCrawlerDao implements BaseDao<Crawler>, CrawlerDao {
                 ps.setString(1, crawler.getName());
                 ps.setInt(2, crawler.getHealthPoints());
                 ps.setInt(3, crawler.getKills());
-                ps.setInt(4, crawler.getRoomsVisited() + 1); // first room is 0
+                ps.setInt(4, crawler.getRoomsVisited()+1); // dirty fix: somewhere the last room visitted is not counted
                 ps.setInt(5, crawler.getGold());
                 ps.setInt(6, crawler.getWeapon().getId());
                 ps.setInt(7, crawler.getUser().getIdUser());
@@ -72,7 +72,7 @@ public class JdbcCrawlerDao implements BaseDao<Crawler>, CrawlerDao {
                 crawler.getName(),
                 crawler.getHealthPoints(),
                 crawler.getKills(),
-                crawler.getRoomsVisited(),
+                crawler.getRoomsVisited()+1, // same dirty fix: need to find out where is the code for counting the rooms
                 crawler.getGold(),
                 crawler.getWeapon().getId(),
                 crawler.getUser().getIdUser(),
