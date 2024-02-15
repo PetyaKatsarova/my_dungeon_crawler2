@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b3057f-c6b3-48b0-b97a-be1b22154d9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/SaveService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/nl/hva/hvacrawler/business/service/SaveService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/target/classes/static/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
       <updated>1707131735254</updated>
       <workItem from="1707131737098" duration="37907000" />
       <workItem from="1707295272562" duration="1729000" />
-      <workItem from="1708011116308" duration="1112000" />
+      <workItem from="1708011116308" duration="1774000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,23 @@
 # Maven
 target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# Java
-*.class
+# IDE - Eclipse, IntelliJ, VSCode, etc.
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# Log files
 *.log
 
-# Package Files #
+# Java bytecode
+*.class
+
+# Package files
 *.jar
 *.war
 *.nar
@@ -13,21 +25,3 @@ target/
 *.zip
 *.tar.gz
 *.rar
-
-# IDEs and editors #
-.idea/
-*.iml
-*.swp
-*.swo
-.vscode/
-*.sublime-workspace
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Temporary
-temp/
-tmp/
-
-application.properties
