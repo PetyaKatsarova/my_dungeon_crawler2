@@ -4,321 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b3057f-c6b3-48b0-b97a-be1b22154d9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_dungeon_crawler.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15100cc0599b2022dc17337bffd4e27a85cebc65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19a87be60f60de6d72eac9d55cd0503cb57dc35c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1eb003fe2ae560eadf88de333fb8d412a43b081e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30b248aa75f942afc1908b08b3dff0529b222eb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30d4ba47ab8dd828032fa2264f28bb792a987567" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b06cd89dab9a8a4694d1de52199faee9ff49934" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5eae224d5bc6f6377708fd44138d849c2a606faf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63c0e74c1f3940a70adfc4e8b6bf1259a9002270" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66ac4cde5e3a4969365003f19db239f95292ba06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68adba62d2894f7d39434c1ce68e0154317d1542" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7770802679668a3b1b86f726225c7f23cfa7e62e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7debe0d5b2452f6a1bd82055c196cc5c8b33e8c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897e95c7b5e1fd656017747af3c7680315729fcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/907921ff2ff18cee718a0e2b0742156ad0bb7dae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97566c923f09c48a8319c9912b19753922a150a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a03dd852c4c7fed7cd96486d49109bcb113cb00f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2be2b008c67f9c8d95a52fd7d786726bd6b32d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a35d8f078ecb0b77c6a666919ea59008c586d11b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a812b17482c132dd2126fc9ec47d42f578071ae0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/affa95bc3b8a27fe04fa7024ebc4ecb5e4de4954" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0d361c6326331e4d369e4f190a3e134cfdc69d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac8eec624a8bfc0b581e896f0d70c2f3d14e5d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c52957387e73118931ab9d9a3190a3c766519788" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccd25fe002d5b9e674ae4a42421645678f092878" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43d52c11fdec03f3dffec811ca14d3a884bf61a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6ec480b64ba2d8c9ab35f861288f82a65a88894" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/faf39c14cd7c89136afddd5e8d9685494c0e1e08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/15100cc0599b2022dc17337bffd4e27a85cebc65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19a87be60f60de6d72eac9d55cd0503cb57dc35c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1eb003fe2ae560eadf88de333fb8d412a43b081e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30b248aa75f942afc1908b08b3dff0529b222eb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30d4ba47ab8dd828032fa2264f28bb792a987567" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/b/4b06cd89dab9a8a4694d1de52199faee9ff49934" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5eae224d5bc6f6377708fd44138d849c2a606faf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/3/63c0e74c1f3940a70adfc4e8b6bf1259a9002270" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/66ac4cde5e3a4969365003f19db239f95292ba06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/68adba62d2894f7d39434c1ce68e0154317d1542" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/7/7770802679668a3b1b86f726225c7f23cfa7e62e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/d/7debe0d5b2452f6a1bd82055c196cc5c8b33e8c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/9/897e95c7b5e1fd656017747af3c7680315729fcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/907921ff2ff18cee718a0e2b0742156ad0bb7dae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/97566c923f09c48a8319c9912b19753922a150a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a03dd852c4c7fed7cd96486d49109bcb113cb00f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a2be2b008c67f9c8d95a52fd7d786726bd6b32d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a35d8f078ecb0b77c6a666919ea59008c586d11b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a812b17482c132dd2126fc9ec47d42f578071ae0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/affa95bc3b8a27fe04fa7024ebc4ecb5e4de4954" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b0d361c6326331e4d369e4f190a3e134cfdc69d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/bac8eec624a8bfc0b581e896f0d70c2f3d14e5d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/5/c52957387e73118931ab9d9a3190a3c766519788" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/c/ccd25fe002d5b9e674ae4a42421645678f092878" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f43d52c11fdec03f3dffec811ca14d3a884bf61a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f6ec480b64ba2d8c9ab35f861288f82a65a88894" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/a/faf39c14cd7c89136afddd5e8d9685494c0e1e08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/dungeonCrawlerGithub.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/issuestore/0/2/0262538a9f65525e5f9d0eb2dc42ab46f6130cb3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/issuestore/e/3/e3169f0728939425396409f8f40c000e233440b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/securityhotspotstore/0/2/0262538a9f65525e5f9d0eb2dc42ab46f6130cb3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/securityhotspotstore/e/3/e3169f0728939425396409f8f40c000e233440b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/HVACrawler.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/HvaCrawlerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Chest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Crawler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Door.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Gold.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Highscore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Monster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Nothing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Potion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Trap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/domain/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/AuthorizationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/ChestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/CommandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/CrawlerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/GameService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/GoldService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/HighscoreService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/LoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/MonsterService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/PotionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/RegistrationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/RoomService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/SaveService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/TrapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/business/service/WeaponService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/CrawlerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/GameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/GoldController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/HTMLController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/HighScoreController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/MonsterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/PasswordResetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/PotionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/RegistrationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/TrapController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/controller/WeaponController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameCrawlerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/GameRoomDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/HasPotionDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/MonsterDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/communication/dto/RegistrationDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/exception/AlgorithmNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/exception/CrawlerAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/exception/CrawlerNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/exception/EmailSendingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/exception/PasswordNotValidException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/exception/UserAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/BaseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/ChestDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/CrawlerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/CrawlerHasPotionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/GoldDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcChestDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcCrawlerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcCrawlerHasPotionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcGameDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcGoldDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcMonsterDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcNothingDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcPotionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcRoomDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcTrapDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcVerificationTokenDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/JdbcWeaponDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/MonsterDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/PotionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/RoomDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/TrapDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/VerificationTokenDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/dao/WeaponDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/ChestRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/CrawlerHasPotionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/CrawlerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/GameRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/GoldRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/MonsterRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/PotionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/RoomRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/TrapRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/persistence/repository/WeaponRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/Dice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/HashAndSaltUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/RandomPercentageGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/event/RegistrationCompleteEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/event/listener/RegistrationCompleteEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/EmailSenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/password/ByteArrayToHexHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/password/HashHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/password/HashService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/password/PasswordCheckerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/password/PepperService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/password/SaltMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/token/JWTToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/token/ResetToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/java/nl/hva/hvacrawler/util/security/token/VerificationToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/Email_info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/commonAndSequencePasswords.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/dataRealGame.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/easyPasswords.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/schemaRealGame.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/down-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/heartbeat.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/left-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/right-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/simulated_high_scores.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/simulated_monsters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/up-arrow_64797.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/assets/victory.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/GameButtonStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/defeatStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/faq.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/footerStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/gameStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/gameboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/loginScreenStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/mainStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/navBarStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/registrationScreenStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/css/victoryStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/defeat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/faq_not_loggedin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/forgot-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/game.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/gameboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/leaderboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/loginScreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/registrationScreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/set-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/verify-token.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/html/victory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/faq_purple (2).avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/faq_purple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/gameAchtergrond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/index-dungeon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/index-dungeon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/images/parchment.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/GameButton's.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/defeat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/faq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/game.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/handelingLogin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/handelingRegistration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/handleNewPassword.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/handlingVerify-token.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/leaderboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/mainMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/victory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/HvaCrawlerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/domain/GameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/CommandServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/GameServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/GoldServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/HighscoreServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/LoginServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/MonsterServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/RegistrationServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/business/service/TrapServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/CrawlerControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/GameControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/GoldControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/HighScoreControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/LoginControllerSystemTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/MonsterControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/PasswordControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/PotionControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/RegistrationControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/communication/controller/TrapControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/dao/JdbcChestDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/dao/JdbcGameDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/dao/JdbcGoldDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/dao/JdbcMonsterDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/dao/JdbcUserDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/dao/JdbcUserHighscoreDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/repository/GameRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/repository/RoomRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/persistence/repository/UserRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/util/security/password/HashHelperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/util/security/password/HashServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/util/security/password/PasswordCheckerServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/java/nl/hva/hvacrawler/util/security/password/SaltMakerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/test/resources/mockGameboard.json" beforeDir="false" />
+    <list default="true" id="cd7eb708-49ec-4392-97ca-fa895f37bf24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/da5bb087-8030-4463-be82-4bf89a99d31d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -326,52 +20,70 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2bwgomdRqHrguQV0J0nKQuIzIg7" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gRirLEWB2ltEZEA8JO1Ca0mowM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/petya.katsarova/OneDrive - CGI/Desktop/dungeonCrawlerGithub - Copy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "d0a0422c62d4bb35ef282994bce028d3",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/petya.katsarova/OneDrive - CGI/Desktop/pk_dcrawler&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\petya.katsarova\OneDrive - CGI\Desktop\my_dungeon_crawler2" />
-      <recent name="C:\Users\petya.katsarova\OneDrive - CGI\Desktop\my_dungeon_crawler2\dungeonCrawlerGithub - Copy" />
-      <recent name="C:\Users\pskpe\OneDrive\Desktop\my_dungeon_crawler\dungeonCrawlerGithub - Copy\webapp\src\main\resources\static" />
-    </key>
-  </component>
+}</component>
   <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="my_dungeon_crawler" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="my_dungeon_crawler" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="my_dungeon_crawler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="my_dungeon_crawler" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HvaCrawlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="HVACrawler" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nl.hva.hvacrawler.HvaCrawlerApplication" />
@@ -383,29 +95,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="07b3057f-c6b3-48b0-b97a-be1b22154d9c" name="Changes" comment="" />
-      <created>1707131735254</created>
+      <changelist id="cd7eb708-49ec-4392-97ca-fa895f37bf24" name="Changes" comment="" />
+      <created>1715666989628</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707131735254</updated>
-      <workItem from="1707131737098" duration="37907000" />
-      <workItem from="1707295272562" duration="1729000" />
-      <workItem from="1708011116308" duration="8951000" />
+      <updated>1715666989628</updated>
+      <workItem from="1715666991912" duration="871000" />
+      <workItem from="1715667973018" duration="2970000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/dungeonCrawlerGithub - Copy/webapp/src/main/resources/static/js/game.js</url>
-          <line>98</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
